@@ -2860,10 +2860,6 @@ input, select, textarea {
 	.main {
 		padding: 6em 0 4em 0 ;
 	}
-
-	.condensed {
-		padding: 0.5em;
-	}
 /* 
 		.main.style1 {
 			background: #fff;
@@ -2960,7 +2956,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 3em 0 3em 0 ;
+		padding: 6em 0 3em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -3284,7 +3280,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 3em 0 3em 0 ;
+				padding: 6em 0 3em 0 ;
 			}
 
 	}
@@ -3370,7 +3366,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 8em 3em 8em 3em ;
+				padding: 6em 3em 3em 3em ;
 			}
 
 		/* Footer */
