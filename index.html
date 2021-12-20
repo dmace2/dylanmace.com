@@ -10,16 +10,28 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-		<div class="condensed" id="navbar">
-			<ul class="actions small condensed">
-				<li><a href="index.html" class="button menu icon solid fa-home"></a></li>
-				<li><a href="projects.html" class="button menu">Projects</a></li>
-				<li><a href="resume.pdf" class="button menu">Resume</a></li>
-			</ul>
-		</div>
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="">
+			<a class="navbar-brand" href="index.html">DYLANMACE</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+					<a class="nav-link" href="projects.html">Projects</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="resume.pdf" class="button menu">Resume</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		
 		
 		<div id="content">
 			<!-- Header -->
@@ -158,6 +170,9 @@
 		
 
 		<!-- Scripts -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
