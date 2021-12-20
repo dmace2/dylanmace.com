@@ -3324,7 +3324,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 3em 0 3em 0 ;
+				padding: 6em 0 3em 0 ;
 				background-attachment: scroll;
 			}
 
@@ -3457,7 +3457,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4em 3em 4em 3em ;
+				padding: 6em 3em 3em 3em ;
 			}
 
 				#header .actions {

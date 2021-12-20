@@ -20,18 +20,19 @@
 //   }
 // }
 
-// window.onload = function() {
-//   var nav = document.getElementById("navbar");
-//   const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
-//   if (darkThemeMq.matches) {
-//     // Theme set to dark.
-//     nav.classList.add("navbar-light");
-//     nav.classList.add("bg-light");
-//   } else {
-//     // Theme set to light.
-//     nav.classList.add("navbar-light");
-//     nav.classList.add("bg-light");
-//   }
+window.onload = function() {
+  var nav = document.getElementById("navbar");
+  const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+  if (darkThemeMq.matches) {
+    // Theme set to dark.
+    nav.classList.add("navbar-dark");
+    nav.classList.add("bg-dark");
+  } else {
+    // Theme set to light.
+    nav.classList.add("navbar-light");
+    nav.classList.add("bg-light");
+  }
+  console.log(nav);
 
 
 
