@@ -3416,6 +3416,14 @@ body.is-preload #header:after {
 		padding: 6em 0 3em 0;
 	}
 
+	.project {
+		background-color: var(--color-card);
+		width: 90%;
+		margin-left: 5%;
+		padding-bottom: 1.5em;
+		z-index: 2;
+	}
+
 }
 
 /* Large */
@@ -3480,6 +3488,14 @@ body.is-preload #header:after {
 		background-attachment: scroll;
 	}
 
+	.project {
+		background-color: var(--color-card);
+		width: 90%;
+		margin-left: 5%;
+		padding-bottom: 1.5em;
+		z-index: 2;
+	}
+
 }
 
 /* Medium */
@@ -3526,6 +3542,14 @@ body.is-preload #header:after {
 
 	#two {
 		text-align: center;
+	}
+
+	.project {
+		background-color: var(--color-card);
+		width: 90%;
+		margin-left: 5%;
+		padding-bottom: 1.5em;
+		z-index: 2;
 	}
 
 }
