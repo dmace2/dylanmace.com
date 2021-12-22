@@ -3638,6 +3638,14 @@ body.is-preload #header:after {
 		padding: 3em 1.5em 3em 1.5em;
 	}
 
+	.project {
+		background-color: var(--color-card);
+		width: 90%;
+		margin-left: 5%;
+		padding-bottom: 1.5em;
+		z-index: 2;
+	}
+
 }
 
 /* XSmall */
@@ -3722,7 +3730,6 @@ body.is-preload #header:after {
 	}
 
 }
-
 
 ul.centered {
 	display: -moz-flex;
