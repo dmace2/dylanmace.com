@@ -3723,13 +3723,6 @@ body.is-preload #header:after {
 
 }
 
-.project {
-	background-color: var(--color-card);
-	width: 90%;
-	margin-left: 5%;
-	padding-bottom: 1.5em;
-	z-index: 2;
-}
 
 ul.centered {
 	display: -moz-flex;
