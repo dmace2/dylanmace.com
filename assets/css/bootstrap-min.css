@@ -412,10 +412,10 @@
 
 /* MARK: GREY COLOR */
 .navbar-transparent {
-    background-color: rgba(0,0,0,0.7) !important;
+    background-color: rgba(0,0,0,0.5) !important;
     /* backdrop-filter: blur(5em)  Blur with 1.17rem radius */
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(1.17rem);
+    backdrop-filter: blur(1.17rem);
 }
 .navbar-transparent .navbar-brand{
     color:#fff
