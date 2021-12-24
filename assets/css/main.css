@@ -2726,6 +2726,27 @@ ul.icons li .icon:before {
 	font-size: 1.5em;
 }
 
+div.icons {
+	cursor: default;
+	padding-left: 0;
+	flex-wrap: wrap;
+	padding-bottom: 1em;
+}
+
+div.icons img {
+	display: inline-block;
+	padding: 0 1.25em 0 0;
+}
+
+div.icons img:last-child {
+	padding-right: 0;
+}
+
+div.icons img .icon:before {
+	font-size: 1.5em;
+}
+
+
 /* Major Icons */
 
 ul.major-icons {
@@ -3717,7 +3738,7 @@ body.is-preload #header:after {
 }
 
 
-ul.centered {
+.centered {
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
